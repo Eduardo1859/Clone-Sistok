@@ -1,0 +1,361 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #E5E5E5;
+    
+}
+
+nav{
+    width: 100vw;
+    height: 108px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > .logo {
+    
+        width: 176.99px;
+        height: 38px;
+        margin: 36px 0 35px 72px;
+        display: inline-flex;
+        align-items: center;
+    
+}
+
+
+nav > .logo >h1 {
+    display: inline-block;
+    margin-left: 10px 
+}
+
+nav > .links {
+    width: 455px;
+    height: 19px;
+    margin-left: 134px;
+}
+
+nav > .links > a {
+    text-decoration: none;
+    width: 64px;
+    height: 19px;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C5D73;
+    text-align: left;
+}
+nav > .actions {
+    width: 270px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+nav > .actions > a {
+    width: 190px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #304F8C;
+    margin-right: px;
+}
+nav > .actions > button {
+    width: 150px;
+    height: 44px;
+    background: transparent;
+    border: 2px solid #304F8C;
+    border-radius: 8px;
+    color: #304F8C;
+    margin-right: 72px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+main {
+    width: 90vw;
+    height: 3243px;
+}
+.hero {
+    width: 100vw;
+    height: 521px;
+}
+
+.apresentacao {
+    width: 95vw;
+    height: 349px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 19px 72px 48px 72px;
+}
+.apresention-text {
+    width: 532px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+}
+.ap-texto > h1 {
+    width: 532px;
+    height: 112px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #111826;
+}
+.ap-texto > p {
+    width: 527px;
+    height: 48px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4C5D73;
+
+}
+.ap-texto > button {
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    background: #304F8C;
+    color: #ffffff;
+}
+.ap-imagen > img {
+    width: 432px;
+    height: 349px;
+}
+.nav-options {
+    width: 90vw;
+    height: 124px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 32px;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.op-solucao {
+    display: inline-flex;
+    width: 139px;
+    height: 59px;
+    margin: 32px 96px 33px 87px;
+}
+.op-text{
+    width: 71px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+}
+.op-text > h1 {
+    width: 156px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #111826;
+    line-height: 30px;
+    margin-left: 9px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+.op-text > p {
+    width: 1200px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4C5D73;
+    line-height: 30px;
+    margin-left: 9px;
+    text-align: left;
+}
+.op-plataforma {
+    display: inline-flex;
+    width: 164px;
+    height: 59px;
+    margin: 32px 96px 33px 87px;
+}
+.op-plataforma > .op-text{
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.op-focado {
+    display: inline-flex;
+    width: 190px;
+    height: 59px;
+    margin: 32px 96px 33px 87px;
+}
+.op-focado > .op-text {
+    width: 122px;
+    display: flex;
+    flex-direction: column;
+}
+
+.op-seguranca {
+    display: inline-flex;
+    width: 180px;
+    height: 59px;
+    margin: 32px 96px 33px 87px;
+}
+.op-seguranca> .op-text {
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+}
+.service {
+    width: 90vw;
+    height: 424px;
+    margin: 88px 53px 0 72px;
+    display: flex;
+    flex-direction: column;
+}
+.text-service {
+    width: 926px;
+    height: 131px;
+    margin-bottom: 58px;
+    font-weight: bold;
+}
+.text-service h1 {
+    width: 88px;
+    height: 56px;
+    color: #4C5D73;
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 400;
+}
+.text-service h2 {
+    width: 826px;
+    height: 80px;
+    color: #111826;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.card-service {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 208px;
+}
+.box-service {
+    width: 268px;
+    height: 208px;
+    background: #ffffff;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.box-service img {
+    width: 67px;
+    height: 67px;
+    margin: 20px 177px 23px 24px;
+}
+.box-service h1 {
+    width: 1283px;
+    height: 30px;
+    color: #111826;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 81px 8px 24px;
+   
+}
+.box-service p {
+    width: 209px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+    color: #4C5D73;
+    margin-left: 25px;
+}
+.about {
+    width: 90vw;
+    height: 777.27px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+}
+.text-about {
+    width: 586px;
+    height: 91px;
+    margin-bottom: 58.79px;
+}
+.text-about h1 {
+    width: 101px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C5D73;
+    line-height: 56px;
+}
+.text-about h2 {
+    width: 586px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #111826;
+    line-height: 40px;
+}
+.card-about {
+    width: 90vw;
+    height: 751.27px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-about {
+    width: 676px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+}
+.box-about p {
+    width: 676px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #4C5D73;
+    margin-bottom: 32px;
+    display: inline-flex;
+    align-items: center;
+}
+.box-about p img {
+    width: 18px;
+    height: 18px;
+    color: #4C5D73;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3px;
+}
+.box-about button {
+    width: 214px;
+    height: 48px;
+    border-color: #304F8C;
+    border-radius: 8px;
+    background: #FFFFFF;
+    color: #304F8C;
+    font-size: 15px;
+    font-weight: 700;
+}
+.box-about button img {
+    width: 19px;
+    height: 10px;
+    color: #304F8C;
+}
