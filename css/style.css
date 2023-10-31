@@ -112,7 +112,7 @@ main {
     color: #111826;
 }
 .ap-texto > p {
-    width: 527px;
+    width: 482px;
     height: 48px;
     margin-bottom: 32px;
     font-size: 16px;
@@ -152,7 +152,7 @@ main {
     display: inline-flex;
     width: 139px;
     height: 59px;
-    margin: 32px 96px 33px 87px;
+    margin: 30px 69px 33px 62px;
 }
 .op-text{
     width: 71px;
@@ -172,7 +172,7 @@ main {
     text-align: left;
 }
 .op-text > p {
-    width: 1200px;
+    width: 125px;
     height: 30px;
     font-size: 14px;
     font-weight: 400;
@@ -210,7 +210,7 @@ main {
     display: inline-flex;
     width: 180px;
     height: 59px;
-    margin: 32px 96px 33px 87px;
+    margin: 25px 26px 25px 0px;;
 }
 .op-seguranca> .op-text {
     width: 112px;
@@ -220,7 +220,7 @@ main {
 .service {
     width: 90vw;
     height: 424px;
-    margin: 88px 53px 0 72px;
+    margin: 88px 3px 0 58px;
     display: flex;
     flex-direction: column;
 }
@@ -266,7 +266,7 @@ main {
     margin: 20px 177px 23px 24px;
 }
 .box-service h1 {
-    width: 1283px;
+    width: 207px;
     height: 30px;
     color: #111826;
     font-size: 17px;
@@ -359,3 +359,190 @@ main {
     height: 10px;
     color: #304F8C;
 }
+
+section#atuacao {
+    width: 90vw;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    margin: 88.6px 3px 0 47px ;
+}
+section#atuacao > .text-atuacao{
+    width: 858px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-atuacao {
+    width: 90vw;
+    height: 208px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+ .card-at {
+    width: 268px;
+    height: 208px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 48px 21px 0 0;
+}
+.box-atuacao > img {
+    width: 105px;
+    height: 105px;
+} 
+#bar{
+    width: 50px;
+}
+.box.atuacao > h1{
+    height: 30px;
+    margin-top: 23px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #111826;
+}
+#mercearia{
+    width: 94px;
+}
+#adega{
+    width: 64px;
+}
+
+.planos {
+    width: 90vw;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    margin: 51px 20px 0 35px;
+}
+
+.planos .text-planos {
+    width: 858px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+}
+.box-planos {
+    width: 90vw;
+    height: 288px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.preco-planos{
+
+        width: 126px;
+        height: 34px;
+        display: inline-flex;
+        margin: 16px 0 0 24px;
+ }
+ .preco-planos > h1{
+     font-size: 20px;
+     font-weight: bolder ;
+     margin: 10px,
+     ;
+ }
+ .card-planos {
+    width: 268px;
+    height: 288px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 58px 21px 0 0;
+    padding: 10px;
+    
+}
+.card-planos h1 {
+    margin: 10px;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.836);
+}
+.card-planos p {
+    margin: 30px 0 10px 0px;
+    padding: 5px;
+}
+.card-planos button{
+    width: 140px;
+    height: 30px;
+    border: 1px solid blue;
+    color: rgb(4, 61, 184);
+    margin-top:50px ;
+    margin-left: 20px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+#plano-essencial {
+    
+    background-color: blue;
+    color: #ffffff;
+}
+#plano-essencial h2 {
+    margin: 10px;
+    font-size: medium;
+}
+
+.popular {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(148, 243, 6);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: -230px ;
+    margin-left: 250px;
+}
+.pessoa{
+    width: 600px;
+    background-color: rgb(219, 218, 218);
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.aspas{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 280px;
+}
+.bolas {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.box-foot{
+    display: inline-flex;
+}
+.card-foot{
+    
+    width: 260px;
+    height: 170px;
+    margin: 10px;
+    margin-right: 20px;
+}
+li{
+    color: rgba(240, 255, 255, 0.822);
+    margin-top: 10px;
+}
+.copyright{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
